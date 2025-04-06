@@ -4,7 +4,7 @@ dbt_airflow_bigquery_healthdata:  # Must match "profile" in dbt_project.yml
       dataset: airflow_dev_healthcare_data
       job_execution_timeout_seconds: 300
       job_retries: 1
-      keyfile: /usr/local/airflow/include/dbt-health-data-project-54973cde34d7.json
+      keyfile: /usr/local/airflow/include/gcp-secret.json
       location: us-central1
       method: service-account
       priority: interactive
@@ -16,7 +16,7 @@ dbt_airflow_bigquery_healthdata:  # Must match "profile" in dbt_project.yml
       dataset: airflow_prod_healthcare_data
       job_execution_timeout_seconds: 300
       job_retries: 1
-      keyfile: /usr/local/airflow/include/dbt-health-data-project-54973cde34d7.json
+      keyfile: /usr/local/airflow/include/gcp-secret.json
       location: us-central1
       method: service-account
       priority: interactive

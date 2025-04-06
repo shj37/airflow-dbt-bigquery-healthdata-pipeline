@@ -14,8 +14,8 @@ from google.cloud import storage
 from google.cloud import storage
 
 # Specifying the full path to the JSON key file
-# keyfile_path = "C:/Users/Shiju/.dbt/dbt-health-data-project-54973cde34d7.json"
-keyfile_path = "/usr/local/airflow/include/dbt-health-data-project-54973cde34d7.json"
+# keyfile_path = "C:/Users/Shiju/.dbt/dbt-health-data-project-.json"
+keyfile_path = "/usr/local/airflow/include/gcp-secret.json"
 storage_client = storage.Client.from_service_account_json(keyfile_path)
 
 
