@@ -1,0 +1,9 @@
+Requirement already satisfied: protobuf in c:\users\shiju\appdata\local\programs\python\python310\lib\site-packages (4.25.6)
+Collecting protobuf
+  Using cached protobuf-6.30.2-cp310-abi3-win_amd64.whl (431 kB)
+Installing collected packages: protobuf
+  Attempting uninstall: protobuf
+    Found existing installation: protobuf 4.25.6
+    Uninstalling protobuf-4.25.6:
+      Successfully uninstalled protobuf-4.25.6
+Successfully installed protobuf-6.30.2
